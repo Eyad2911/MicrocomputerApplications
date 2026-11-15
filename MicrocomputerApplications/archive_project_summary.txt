@@ -1,1 +1,28 @@
-hello
+Vivado project archive summary
+================================
+
+Project: MicrocomputerApplications
+Vivado version recorded in the project: 2018.2 (64-bit)
+Target device: xc7a35tcpg236-1 (Artix-7)
+
+The archive contains the Vivado project file, Verilog design sources and simulation testbenches, hardware/project metadata, XSim scripts and logs, simulation waveform databases, and Vivado journal/log files.
+
+Design source modules:
+- pc_reg.v
+- adder.v
+- mux2.v
+- signextension.v
+- registerfile.v
+- alu.v
+
+Simulation testbenches:
+- tb_pc_reg.v
+- tb_adder.v
+- tb_mux2.v
+- tb_signextension.v
+- tb_registerfile.v
+- tb_alu.v
+
+Vivado archive note: synthesis and implementation run results were excluded from the archive. The archive summary also warns that the compiled simulation library directory may need to be set again after moving the project to another machine.
+
+Open the .xpr file in Vivado 2018.2 or a compatible newer version. Check the target part and simulation library configuration before running simulations.
