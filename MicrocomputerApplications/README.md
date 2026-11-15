@@ -1,6 +1,6 @@
 # MicrocomputerApplications
 
-This folder contains the Verilog RTL design modules and simulation testbenches from the Vivado Microcomputer Applications project.
+This folder contains the Verilog RTL design modules and simulation testbenches from the Microcomputer Applications project.
 
 ## RTL modules
 
@@ -16,3 +16,5 @@ This folder contains the Verilog RTL design modules and simulation testbenches f
 The corresponding testbenches are under `MicrocomputerApplications.srcs/sim_1/new/`.
 
 Target part: `xc7a35tcpg236-1`. The archive records Vivado 2018.2 (64-bit).
+
+The original `.xpr` file and generated cache/log/waveform artefacts are not included in this repository upload.

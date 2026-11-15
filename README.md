@@ -1,17 +1,15 @@
 # Microcomputer Applications
 
-Vivado / Verilog coursework project.
+Vivado / Verilog coursework project targeting the Xilinx Artix-7 part `xc7a35tcpg236-1`. The original archive records Vivado 2018.2 (64-bit).
 
-The archived project targets the Xilinx Artix-7 part `xc7a35tcpg236-1` and records Vivado 2018.2 (64-bit) as its authoring version.
+## Included in this repository
 
-## Project contents
+- Six RTL modules: ALU, adder, 2:1 mux, PC register, register file, and sign extension.
+- Six corresponding Verilog testbenches.
+- A project archive summary and project documentation.
 
-- `MicrocomputerApplications.srcs/sources_1/new/`: RTL modules for the ALU, adder, 2:1 mux, PC register, register file, and sign extension.
-- `MicrocomputerApplications.srcs/sim_1/new/`: Verilog testbenches for those modules.
-- `archive_project_summary.txt`: summary and notes from the Vivado project archive.
+## Project files not included in this upload
 
-## Opening in Vivado
+The original `.xpr` project file and generated Vivado/XSim cache, log, and waveform files from the ZIP have not been transferred. The RTL and testbenches are preserved in their original relative source folders.
 
-Open the `.xpr` project file in Vivado. After moving the project to another computer, check the target part and compiled simulation-library path before launching simulations.
-
-The source and testbench files are retained in the same relative folder layout used by the archived project.
+To use the HDL in Vivado, create or open a project, select `xc7a35tcpg236-1`, add the files under `MicrocomputerApplications.srcs/sources_1/new/` as design sources, and add the files under `MicrocomputerApplications.srcs/sim_1/new/` as simulation sources.
